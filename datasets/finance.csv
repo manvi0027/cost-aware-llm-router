@@ -1,0 +1,11 @@
+﻿query_id,query,domain,financial_complexity,regulatory_aspect,difficulty_label,difficulty_score,expected_tokens
+1,What is a stock?,general,simple,none,simple,0.20,100
+2,Hello,general,trivial,none,simple,0.08,40
+3,Explain credit default swap pricing using stochastic volatility models and counterparty credit risk,derivatives,very_complex,high,very_complex,0.93,1100
+4,What is inflation?,economics,moderate,low,moderate,0.48,200
+5,Analyze Basel III regulatory framework for capital adequacy and liquidity coverage ratios,regulatory,complex,very_high,complex,0.80,700
+6,How do options work?,derivatives,moderate,low,moderate,0.52,280
+7,Explain Modern Portfolio Theory and efficient frontier calculation,quantitative,complex,medium,complex,0.75,600
+8,What is a bond?,general,simple,low,simple,0.22,120
+9,Compare different market microstructure models for high frequency trading,quantitative,very_complex,high,very_complex,0.90,1000
+10,How do interest rates affect economy?,economics,moderate,medium,moderate,0.50,250

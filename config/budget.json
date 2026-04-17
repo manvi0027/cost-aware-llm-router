@@ -1,0 +1,24 @@
+﻿{
+  "budget_policies": {
+    "monthly_budget_usd": 500,
+    "daily_budget_usd": 20,
+    "weekly_budget_usd": 150,
+    "warning_threshold_percentage": 80,
+    "critical_threshold_percentage": 95,
+    "enforcement_enabled": true,
+    "model_tier_limits": {
+      "cheap": {
+        "monthly_limit_usd": 100,
+        "daily_limit_usd": 5
+      },
+      "midtier": {
+        "monthly_limit_usd": 300,
+        "daily_limit_usd": 12
+      },
+      "expert": {
+        "monthly_limit_usd": 100,
+        "daily_limit_usd": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+﻿{
+  "models": {
+    "cheap": {
+      "name": "GPT-3.5 Turbo",
+      "provider": "openai",
+      "model_id": "gpt-3.5-turbo",
+      "tier": "cheap",
+      "cost_per_1k_input_tokens": 0.0005,
+      "cost_per_1k_output_tokens": 0.0015,
+      "max_tokens": 4096,
+      "latency_ms": 500,
+      "availability": 0.99,
+      "description": "Fast and affordable model for simple queries"
+    },
+    "midtier": {
+      "name": "GPT-4 Turbo",
+      "provider": "openai",
+      "model_id": "gpt-4-turbo-preview",
+      "tier": "midtier",
+      "cost_per_1k_input_tokens": 0.01,
+      "cost_per_1k_output_tokens": 0.03,
+      "max_tokens": 128000,
+      "latency_ms": 1500,
+      "availability": 0.98,
+      "description": "Balanced model for moderate complexity queries"
+    },
+    "expert": {
+      "name": "GPT-4",
+      "provider": "openai",
+      "model_id": "gpt-4",
+      "tier": "expert",
+      "cost_per_1k_input_tokens": 0.03,
+      "cost_per_1k_output_tokens": 0.06,
+      "max_tokens": 8192,
+      "latency_ms": 2000,
+      "availability": 0.97,
+      "description": "Expert model for complex reasoning tasks"
+    }
+  }
+}

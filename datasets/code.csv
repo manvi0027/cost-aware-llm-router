@@ -1,0 +1,11 @@
+﻿query_id,query,cyclomatic_complexity,lines_of_code,function_count,code_difficulty,difficulty_label,difficulty_score,expected_tokens
+1,How do I use console.log?,general,1,5,simple,simple,0.12,60
+2,Hello world,general,1,1,trivial,simple,0.05,30
+3,Implement a B-tree data structure with insertion deletion and search operations along with rebalancing,algorithms,15,500,10,very_complex,0.92,1200
+4,Explain quicksort algorithm,algorithms,8,50,2,moderate,0.58,300
+5,What is a loop?,general,2,10,1,simple,0.15,80
+6,Design a distributed cache system with eventual consistency and multi-level eviction policies,systems,18,800,15,very_complex,0.95,1400
+7,How does async/await work in JavaScript?,javascript,5,30,1,moderate,0.52,250
+8,Implement a Trie data structure with prefix compression,algorithms,12,200,5,complex,0.78,500
+9,Explain memory management and garbage collection in JVM,systems,10,400,8,complex,0.75,600
+10,Write a hello world program,general,1,5,1,simple,0.10,50

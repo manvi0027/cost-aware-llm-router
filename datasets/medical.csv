@@ -1,0 +1,11 @@
+﻿query_id,query,medical_domain,domain_specificity,clinical_complexity,difficulty_label,difficulty_score,expected_tokens
+1,What is diabetes?,general,0.3,simple,simple,0.20,100
+2,Hi,general,0.1,trivial,simple,0.08,30
+3,What are the pathophysiological mechanisms of Type 2 diabetes mellitus including insulin resistance and beta cell dysfunction?,endocrinology,0.9,very_complex,very_complex,0.95,900
+4,Explain hypertension treatment,cardiology,0.6,moderate,moderate,0.55,250
+5,How do ACE inhibitors work in heart failure?,cardiology,0.8,complex,complex,0.80,450
+6,Describe the differential diagnosis of acute chest pain in emergency medicine,emergency,0.9,very_complex,very_complex,0.88,800
+7,What is a fever?,general,0.2,simple,simple,0.18,80
+8,Compare SGLT2 inhibitors and GLP-1 agonists in cardiovascular disease,endocrinology,0.85,complex,complex,0.82,600
+9,Analyze the immune response to COVID-19 variants,immunology,0.9,very_complex,very_complex,0.90,850
+10,What causes headache?,neurology,0.4,moderate,moderate,0.48,200

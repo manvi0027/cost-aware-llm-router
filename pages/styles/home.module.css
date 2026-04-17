@@ -1,0 +1,108 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+}
+
+.content h1 {
+  font-size: 56px;
+  margin: 0 0 15px 0;
+  font-weight: 700;
+}
+
+.content p {
+  font-size: 22px;
+  margin: 0 0 40px 0;
+  opacity: 0.9;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.feature {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.feature h3 {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.feature p {
+  margin: 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryBtn {
+  padding: 14px 32px;
+  background: white;
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+}
+
+.secondaryBtn {
+  padding: 14px 32px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.secondaryBtn:hover {
+  background: white;
+  color: #667eea;
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 36px;
+  }
+
+  .content p {
+    font-size: 18px;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+}

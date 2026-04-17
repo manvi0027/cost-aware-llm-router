@@ -1,0 +1,11 @@
+﻿query_id,query,temperature,co2_level,humidity,complexity_label,difficulty_score,expected_tokens
+1,What is the current global temperature trend?,22.5,420.5,65,moderate,0.45,150
+2,How does CO2 affect climate change?,23.1,421.2,70,complex,0.75,300
+3,Hello,20.0,415.0,55,simple,0.15,50
+4,Analyze the relationship between greenhouse gases and atmospheric temperature changes over the past century,25.0,425.0,75,very_complex,0.92,800
+5,What causes acid rain?,21.0,418.0,60,moderate,0.52,200
+6,Explain the greenhouse effect,22.0,419.0,62,moderate,0.50,180
+7,What is weather?,19.0,410.0,50,simple,0.10,40
+8,How do solar cycles impact Earth's climate?,24.0,422.0,68,complex,0.78,400
+9,Compare climate models from IPCC AR6,26.0,428.0,72,very_complex,0.88,700
+10,What is climate feedback mechanism?,23.5,420.8,66,complex,0.72,350
